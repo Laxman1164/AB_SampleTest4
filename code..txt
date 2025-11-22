@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'chanduyadav143/jmetertest:v1.0'  // Your Docker image name
-        TEST_REPO = 'https://github.com/chanduyadav143/JMeter-Scripts.git'  // Your GitHub repo URL
+        TEST_REPO = 'https://github.com/Laxman1164/AB_SampleTest4.git'  // Your GitHub repo URL
     }
 
     stages {
@@ -30,4 +30,5 @@ pipeline {
             }
         }
     }
+
 }
